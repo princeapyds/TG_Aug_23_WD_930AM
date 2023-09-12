@@ -1,4 +1,1 @@
-class Demo:
-    pass
-
-print('Hi')
+print("Hi")
