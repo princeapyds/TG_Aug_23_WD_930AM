@@ -6,4 +6,4 @@ try:
     print(a+b)
 
 except:
-    print('there is some errro, please try with different value')
+    print('there is some error, please try with different value')
