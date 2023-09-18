@@ -1,2 +1,1 @@
-class demo:
-    print('hi')
+print('hello')
