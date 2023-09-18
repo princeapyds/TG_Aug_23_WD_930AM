@@ -1,0 +1,20 @@
+from random import randint()
+otp = randint(1111,9999)
+print(otp)
+
+attempt = 1
+while attempt <= 3:
+  try:
+    attempt += 1
+    user_input = int(input('Enter your otp:' ))
+    if user_input == otp:
+      print('Transaction processed successfully')
+      break
+    else:
+      print('Wrong attempt,please try again')
+    if attempt == 4:
+      print('your account blocked')
+  except:
+      print('Wrong attempt,please try again')
+  if attempt == 4:
+    print('your account blocked....')
